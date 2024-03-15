@@ -1,0 +1,149 @@
+
+body {
+    width: 100%;
+    margin: 0; /* Assurez-vous qu'il n'y a pas de marges par défaut */
+    padding: 0;
+    height: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 15px 10px 10px 10px;
+  }
+
+/* Style pour les titres */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #666;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #999;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #aaa;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #bbb;
+}
+
+h6 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #ccc;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 2px solid #1411ee;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Style pour les onglets 1er niveau*/
+.tab {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+  cursor: pointer;
+  }
+
+/* Style pour l'onglet actif */
+.tab.active {
+    background-color: #ccc; /* Couleur de fond de l'onglet actif */
+    color: #333; /* Couleur du texte de l'onglet actif */
+    font-weight: bold; /* Texte en gras pour l'onglet actif */
+}
+
+/* Style pour le contenu des onglets */
+.tabcontent {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.Bandeau1 {
+  background-color: #47a1f5;
+  width: 100%; /* Prend toute la largeur disponible */
+  height: 150px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.Bandeau2 {
+  background-color: #fff;
+}
+
+.BatStn {
+  background-color: #ffffff;
+  display: inline-block;
+  height: 5000px;
+}
+
+/* Style pour les onglets du 2eme niveau pour avoir plusieurs lignes de bouton*/
+.tabs-menu {
+  display: flex;
+  flex-wrap: wrap; /* Permet aux onglets de passer à la ligne si nécessaire */
+}
+
+.tablinks { /*style pour les boutons des batiments*/
+  padding: 10px 25px;
+  background-color: #f2f2f2;
+  cursor: pointer;
+  margin: 10px; /* Ajoute un espacement entre les onglets */
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/*bouton version 1 version 2*/
+.fixed-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fixed-button:hover {
+  background-color: #0056b3;
+}
+
+/* Style diapo pour les photos des batiments industriels*/

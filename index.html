@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Référentiel toiture maquette</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="Bandeau1">
+  <h1>Test maquette Référentiel Toitures Bugey</h1>
+    <br>
+    <!-- Onglets 1er niveau choix INDUS ou tertiaire-->
+  <div class="tab" onclick="openTab1('STN')">Toitures Industrielles</div>
+  <div class="tab" onclick="openTab1('DIRSE')">Toitures Tertiaires</div>
+  </div>
+  <!-- Contenu des onglets -->
+  <!-- Contenu onglet INDUSTRIEL -->
+  <div id="STN" class="tabcontent1 Bandeau2">
+      <h2>Toitures Industrielles</h2>
+  
+      <p style="color: red;"> Ce site est une version de principe, les infos présentes (photos, données, etc) sont fausses.</p>
+      <p>Sélectionnez le batiment que vous recherchez (seulement le B00 est rempli)</p>
+   
+<div id="navbar">
+</div>
+      <div class="tabs-menu">
+        <button class="tablinks" onclick="openTab2(event, 'tab1')">B 00</button>
+        <button class="tablinks" onclick="openTab2(event, 'tab3')">B 08</button>
+        <button class="tablinks" onclick="openTab2(event, 'tab3')">B 09</button>
+        <button class="tablinks" onclick="openTab2(event, 'tab3')">B 10</button>
+        <button class="tablinks" onclick="openTab2(event, 'tab3')">B 11</button>
+        <button class="tablinks" onclick="openTab2(event, 'tab3')">B 12</button>
+        <button class="tablinks" onclick="openTab2(event, 'tab3')">B 25</button>
+        <button class="tablinks" onclick="openTab2(event, 'tab3')">B 38</button>
+        <button class="tablinks" onclick="openTab2(event, 'tab3')">B 40</button>
+        <button class="tablinks" onclick="openTab2(event, 'tab3')">B 51</button>
+        <button class="tablinks" onclick="openTab2(event, 'tab3')">B 52</button>
+        <button class="tablinks" onclick="openTab2(event, 'tab3')">B 53</button>
+        <button class="tablinks" onclick="openTab2(event, 'tab3')">B 54</button>
+        <button class="tablinks" onclick="openTab2(event, 'tab3')">B 60</button>
+        <button class="tablinks" onclick="openTab2(event, 'tab3')">B 61</button>
+        <button class="tablinks" onclick="openTab2(event, 'tab3')">B 62</button>
+        <button class="tablinks" onclick="openTab2(event, 'tab3')">B 64</button>
+        <button class="tablinks" onclick="openTab2(event, 'tab3')">B 73</button>
+        <button class="tablinks" onclick="openTab2(event, 'tab3')">B 74</button>
+        <button class="tablinks" onclick="openTab2(event, 'tab3')">B 75</button>
+        <button class="tablinks" onclick="openTab2(event, 'tab3')">B 76</button>
+        <button class="tablinks" onclick="openTab2(event, 'tab3')">B 77</button>
+
+     </div>
+  </div>
+
+      <div id="tab1" class="tabcontent2 BatStn">
+
+        <object type="text/html" data="FicheB00.html" width="100%" height=100%></object>
+      </div>
+
+      <div id="tab2" class="tabcontent2 BatStn">
+        <h3>Contenu de l'onglet 2</h3>
+        <p>Ceci est le contenu de l'onglet 2.</p>
+      </div>
+
+      <div id="tab3" class="tabcontent2 BatStn">
+        <h3>Non existant</h3>
+        <p>Contenu en cours de création, il est fictif pour symboliser le listings des batiments</p>
+      </div>
+
+    
+  </div>
+
+  <!-- Contenu onglets TERTIARE -->
+  <div id="DIRSE" class="tabcontent1 Bandeau2">
+    <h2>Toitures Tertiaires</h2>
+    <p>A venir dans un futur proche ou lointain</p>
+  </div>
+
+  
+  <a href="Version map.html" class="fixed-button">Version MAP</a>
+  <script src="script.js"></script>
+</body>
+</html>
